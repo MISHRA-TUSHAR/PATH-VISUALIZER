@@ -1,16 +1,46 @@
-# path_visualizer
+**Path Visualizer**
 
-A new Flutter project.
 
-## Getting Started
+A Flutter-based mobile application to visualize Dijkstra's shortest path algorithm.
 
-This project is a starting point for a Flutter application.
+**Overview**
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The Path Visualizer app is an interactive tool to visualize how Dijkstra's shortest path algorithm works. Users can define the start point, end point, and obstacles on a grid. On running the algorithm, the app shows the path from start to end, avoiding the obstacles and using the shortest possible route.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Screenshots**
+![Screenshot_1692268506](https://github.com/MISHRA-TUSHAR/path_visualizer/assets/109910958/41faddd2-42d7-4837-9db0-afbd540aee20)
+
+**Features**
+
+
+Interactive Grid: Users can tap on cells to set starting and ending points, and also define walls or obstacles.
+Visualization: Shows visited nodes and the final shortest path.
+Customizable Grid: Grid size can be adjusted as per user requirements.
+Tooltip Indicators: Provides tooltips for each type of node (Start, End, Path, Wall, etc.).
+
+
+**Prerequisite:**
+
+Flutter SDK
+
+
+Dart
+
+
+**Usage**
+
+
+1.Tap on a grid cell to set the starting point.
+
+
+2.Tap on another cell to set the ending point.
+
+
+3.Add walls or obstacles by tapping on other cells.
+
+
+4.Click on 'Start Algorithm' to visualize Dijkstra's algorithm.
+
+
+5.Use 'Reset Grid' to clear all and start fresh.
